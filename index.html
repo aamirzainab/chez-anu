@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chez Anu</title>
+<meta name="description" content="Chez Anu — a Naan Stop Eats supper club in New York City.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Karla:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --lacquer:#0E1428;
+    --saffron:#E0A23C;
+    --paper:#F0E4CE;
+    --dim:#A9A18F;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    min-height:100vh;
+    background:var(--lacquer);
+    color:var(--paper);
+    font-family:"Karla",system-ui,sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:48px 24px;
+  }
+  main{width:100%;max-width:400px;text-align:center}
+  .badge{
+    width:132px;
+    height:132px;
+    margin:0 auto;
+    border-radius:50%;
+    background:var(--paper);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .badge img{width:80%;height:auto;display:block}
+  h1{
+    font-family:"Bodoni Moda",Georgia,serif;
+    font-weight:400;
+    font-size:44px;
+    margin:24px 0 8px;
+  }
+  .tag{
+    font-size:15px;
+    line-height:1.6;
+    color:var(--dim);
+    margin:0 auto 36px;
+    max-width:30ch;
+  }
+  a.link{
+    display:block;
+    padding:18px;
+    margin-bottom:12px;
+    border:1px solid rgba(224,162,60,.35);
+    color:var(--paper);
+    text-decoration:none;
+    font-size:15px;
+    font-weight:600;
+    letter-spacing:.02em;
+    transition:background .25s,border-color .25s;
+  }
+  a.link:hover,a.link:focus-visible{
+    background:rgba(224,162,60,.1);
+    border-color:var(--saffron);
+  }
+  a.link:focus-visible{outline:2px solid var(--saffron);outline-offset:3px}
+  footer{margin-top:32px;font-size:13px;color:var(--dim)}
+  footer a{color:var(--dim)}
+</style>
+</head>
+<body>
+<main>
+
+  <div class="badge"><img src="logo.png" alt="Naan Stop Eats"></div>
+
+  <h1>Chez Anu</h1>
+  <p class="tag">Beyond Kashmir — a supper club. Choose your date.</p>
+
+  <!-- REPLACE href WITH YOUR AUGUST 14 TICKET LINK -->
+  <a class="link" href="#aug-14-link-here">Thursday, August 14 →</a>
+
+  <!-- REPLACE href WITH YOUR AUGUST 15 TICKET LINK -->
+  <a class="link" href="#aug-15-link-here">Friday, August 15 →</a>
+
+  <footer><a href="mailto:hello@naanstop.nyc">hello@naanstop.nyc</a></footer>
+
+</main>
+</body>
+</html>
